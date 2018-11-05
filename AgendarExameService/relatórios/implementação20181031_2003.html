@@ -1,0 +1,161 @@
+<html xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Relatório de Implementação - desenvolvimento</title>
+<style type="text/css">
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: x-small;
+}
+
+table {
+    margin-bottom: 5px;
+    background-image: url(img/bg_header.jpg);
+    width: 100%;
+    border-collapse:collapse;
+}
+
+span.title {
+    color: #FFFFFF;
+    font-size: medium;
+    margin: 0;
+    padding: 0 0 0 10px;
+    width: 105%;
+}
+
+span.section {
+    color: #003366;
+    border-bottom: 1px solid #00000;
+    font-size: small;
+    margin: 0 3% 0 3%;
+    padding: 3px;
+    width: 94%;
+}
+
+span.end {
+    border: 0;
+}
+
+span.value {
+    font-variant: italic;
+    margin-right: 5px;
+    background-color: #EEEEEE;
+}
+
+ul {
+    width: 94%;
+    margin: 0 3% 10px 3%;
+    padding: 0;
+}
+
+li {
+    padding: 1px 1px 1px 7px;
+    list-style: none;
+    background-color: #FFFFFF;
+    vertical-align: top;
+}
+
+li.bandit {
+    background-color: #F9F9FD;
+}
+
+span.message {
+    vertical-align: top;
+}
+
+div.exception {
+    margin: 0 5px 5px 10px;
+    padding: 3px;
+    background-color: #EEEEEE;
+    border: 1px solid #999999;
+}
+        </style>
+</head>
+<body>
+<table>
+<tr>
+<td nowrap style="background-image:url(img/bg_header.jpg);">
+<table>
+<tr>
+<td valign="middle" nowrap style="background-image:url(img/title_left.jpg)"><span class="title">Relatório de Implementação - desenvolvimento</span>
+<br>
+</td><td><img src="img/title_right.jpg" alt=""></td>
+</tr>
+</table>
+</td><td valign="middle" align="right" nowrap style="padding-right:10px;"><img src="img/IBM_1px_white_no_border.gif" alt=""></td>
+</tr>
+<tr>
+<td colspan="2" align="right" valign="middle" height="20"></td>
+</tr>
+</table>
+<span class="section">Informações do RuleApp - desenvolvimento</span>
+<ul>
+<li>
+<img src="img/info.png" alt="Nome do arquivo: desenvolvimento.jar"><span class="message">Nome do arquivo: desenvolvimento.jar</span>
+</li>
+<li class="bandit">
+<img src="img/info.png" alt="Versão: 1.0"><span class="message">Versão: 1.0</span>
+</li>
+</ul>
+<span class="section">Informações do Conjunto de Regras - ConsultarQuestionario</span>
+<ul>
+<li>
+<img src="img/info.png" alt="Nome do arquivo: ConsultarQuestionario.dsar"><span class="message">Nome do arquivo: ConsultarQuestionario.dsar</span>
+</li>
+<li class="bandit">
+<img src="img/info.png" alt="Versão: 1.1"><span class="message">Versão: 1.1</span>
+</li>
+</ul>
+<span class="section">Informações do Conjunto de Regras - DefinirUnidade</span>
+<ul>
+<li>
+<img src="img/info.png" alt="Nome do arquivo: DefinirUnidade.dsar"><span class="message">Nome do arquivo: DefinirUnidade.dsar</span>
+</li>
+<li class="bandit">
+<img src="img/info.png" alt="Versão: 1.1"><span class="message">Versão: 1.1</span>
+</li>
+</ul>
+<span class="section">Implementação do XOM</span>
+<ul>
+<li>
+<img src="img/info.png" alt="A operação de decisão 'DefinirUnidade' referencia o projeto de Regra de destino a seguir: [DefinirUnidadeExame]."><span class="message">A operação de decisão 'DefinirUnidade' referencia o projeto de Regra de destino a seguir: [DefinirUnidadeExame].</span>
+</li>
+<li class="bandit">
+<img src="img/info.png" alt="A operação de decisão 'ConsultarQuestionario' referencia o projeto de Regra de destino a seguir: [ConsultarQuestionario]."><span class="message">A operação de decisão 'ConsultarQuestionario' referencia o projeto de Regra de destino a seguir: [ConsultarQuestionario].</span>
+</li>
+<li>
+<img src="img/info.png" alt="Os recursos XOM a seguir foram localizados para o projeto de Regra 'ConsultarQuestionario': [com.ibm.rules.studio.decisionservice.deployment.internal.SDsXOMInspectorImpl$RuleProjectRefXOMEntry@f46f2336]."><span class="message">Os recursos XOM a seguir foram localizados para o projeto de Regra 'ConsultarQuestionario': [com.ibm.rules.studio.decisionservice.deployment.internal.SDsXOMInspectorImpl$RuleProjectRefXOMEntry@f46f2336].</span>
+</li>
+<li class="bandit">
+<img src="img/info.png" alt="Os recursos XOM a seguir foram localizados para o projeto de Regra 'DefinirUnidadeExame': [com.ibm.rules.studio.decisionservice.deployment.internal.SDsXOMInspectorImpl$RuleProjectRefXOMEntry@c0c666ba]."><span class="message">Os recursos XOM a seguir foram localizados para o projeto de Regra 'DefinirUnidadeExame': [com.ibm.rules.studio.decisionservice.deployment.internal.SDsXOMInspectorImpl$RuleProjectRefXOMEntry@c0c666ba].</span>
+</li>
+<li>
+<img src="img/warning.png" alt="Nenhum recurso XOM candidato foi localizado: ignorando a implementação XOM."><span class="message">Nenhum recurso XOM candidato foi localizado: ignorando a implementação XOM.</span>
+</li>
+</ul>
+<span class="section">Status de Construção do RuleApp</span>
+<ul>
+<li>
+<img src="img/info.png" alt="Arquivo de RuleApp gravado em: D:\workspaces\PoC_DASA\AgendarExameService\saída\desenvolvimento.jar"><span class="message">Arquivo de RuleApp gravado em: D:\workspaces\PoC_DASA\AgendarExameService\saída\desenvolvimento.jar</span>
+</li>
+<li class="bandit">
+<img src="img/info.png" alt="A construção do RuleApp foi concluída sem erros."><span class="message">A construção do RuleApp foi concluída sem erros.</span>
+</li>
+</ul>
+<span class="section">Implementação de RuleApp</span>
+<ul>
+<li>
+<img src="img/info.png" alt="A versão '1.1' do conjunto de regras 'DefinirUnidade' foi implementada com êxito em RES (http://192.168.40.144:9090/res)."><span class="message">A versão '1.1' do conjunto de regras 'DefinirUnidade' foi implementada com êxito em RES (http://192.168.40.144:9090/res).</span>
+</li>
+<li class="bandit">
+<img src="img/info.png" alt="A versão '1.1' do conjunto de regras 'ConsultarQuestionario' foi implementada com êxito em RES (http://192.168.40.144:9090/res)."><span class="message">A versão '1.1' do conjunto de regras 'ConsultarQuestionario' foi implementada com êxito em RES (http://192.168.40.144:9090/res).</span>
+</li>
+<li>
+<img src="img/info.png" alt="O RuleApp foi implementado com sucesso em RES (http://192.168.40.144:9090/res)."><span class="message">O RuleApp foi implementado com sucesso em RES (http://192.168.40.144:9090/res).</span>
+</li>
+</ul>
+<span class="section end">Implementação bem-sucedida</span>
+</body>
+</html>

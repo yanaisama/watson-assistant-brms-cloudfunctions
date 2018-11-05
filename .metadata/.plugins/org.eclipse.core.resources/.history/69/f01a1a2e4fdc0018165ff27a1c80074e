@@ -1,0 +1,54 @@
+package br.com.dasa;
+
+import java.util.Collection;
+import java.util.Locale;
+import java.util.Map;
+
+import ilog.rules.bom.IlrClass;
+import ilog.rules.shared.bom.IlrBOMDomainValueProvider;
+
+public class PerguntasValueProvider implements IlrBOMDomainValueProvider {
+
+	@Override
+	public void dispose() {
+		// TODO Stub de método gerado automaticamente
+
+	}
+
+	@Override
+	public String getBOM2XOMMapping(String arg0) {
+		// TODO Stub de método gerado automaticamente
+		return null;
+	}
+
+	@Override
+	public String getDisplayText(String arg0, Locale arg1) {
+		// TODO Stub de método gerado automaticamente
+		return null;
+	}
+
+	@Override
+	public String getDocumentation(String arg0, Locale arg1) {
+		// TODO Stub de método gerado automaticamente
+		return null;
+	}
+
+	@Override
+	public Map getProperties(String arg0) {
+		// TODO Stub de método gerado automaticamente
+		return null;
+	}
+
+	@Override
+	public String getTranslation(String arg0) {
+		// TODO Stub de método gerado automaticamente
+		return null;
+	}
+
+	@Override
+	public Collection getValues(IlrClass arg0) {
+		// TODO Stub de método gerado automaticamente
+		return null;
+	}
+
+}

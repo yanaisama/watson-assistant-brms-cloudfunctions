@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="TeamServerConfigurationWizard">
+		<list key="ilog.rules.synchronization.eclipseui.STORE_URL">
+			<item value="http://192.168.40.156:9090/decisioncenter"/>
+			<item value="http://192.168.40.157:9090/decisioncenter"/>
+			<item value="https://ppsa-br-odm.bpm.ibmcloud.com/odm/dev/decisioncenter"/>
+			<item value="http://192.168.40.144:9090/decisioncenter"/>
+		</list>
+		<list key="ilog.rules.synchronization.eclipseui.STORE_DATA_SOURCES">
+			<item value=""/>
+		</list>
+		<list key="ilog.rules.synchronization.eclipseui.STORE_USER_NAMES">
+			<item value="rtsAdmin"/>
+			<item value="luiz.yanai@scalait.com"/>
+		</list>
+	</section>
+</section>

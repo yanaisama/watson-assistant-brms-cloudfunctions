@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><teamservers>
+<teamserver>
+<target dataSource="" login="rtsAdmin" url="http://192.168.40.144:9090/decisioncenter"/>
+<entry baseType="B2XMapping" checksum="3670661356" projectName="dasa-exame-bom" qualifiedName="modelo" sourceCS="9C0342EBAE98E32A7559675CE591D86D" targetCS="3670661356" type="B2XMapping" uuid="5f6e08e3-ca9d-44c6-a450-7aef82780de8"/>
+<entry baseType="B2XMapping" checksum="1149613294" projectName="dasa-exame-bom" qualifiedName="modelo_exame" sourceCS="76DA04D43510BEDE46EF2A5BF5BB140F" targetCS="1149613294" type="B2XMapping" uuid="cd8e7ca8-cc57-4603-9cd2-35e28836c4fa"/>
+<entry baseType="BusinessObjectModel" checksum="3670661356" projectName="dasa-exame-bom" qualifiedName="modelo" sourceCS="987B74346A2C8D00B35FB312A0264528" targetCS="3670661356" type="BusinessObjectModel" uuid="054c7bbe-a1f4-4a37-9900-9bb1aca03752"/>
+<entry baseType="BusinessObjectModel" checksum="1149613294" projectName="dasa-exame-bom" qualifiedName="modelo_exame" sourceCS="DFFBA2107E512B269CFCC79F985ED608" targetCS="1149613294" type="BusinessObjectModel" uuid="46f54036-7219-4939-b49e-02f94dbd5dda"/>
+<entry baseType="Resource" checksum="2169191410" projectName="dasa-exame-bom" qualifiedName="xom-libraries/dasa-exame-xom.zip" sourceCS="E45F7C3CF3508B730354713F68614EDC" targetCS="2169191410" type="Resource" uuid="xom-libraries/dasa-exame-xom.zip"/>
+<entry baseType="RuleProjectInfo" checksum="4217356102" projectName="dasa-exame-bom" qualifiedName="dasa-exame-bom" sourceCS="E590F9FE033B77CB546C1CE934D661F7" targetCS="4217356102" type="RuleProjectInfo" uuid="22970ce0-2971-4de6-bff1-e360e3dfc7d0"/>
+<entry baseType="Vocabulary" checksum="1149613294" projectName="dasa-exame-bom" qualifiedName="modelo_exame_pt_BR" sourceCS="71E5C6BDE788564B9B16B03042E02B09" targetCS="1149613294" type="Vocabulary" uuid="3355ad05-a70e-49b5-80e8-1d98a0b7c539"/>
+<entry baseType="Vocabulary" checksum="3670661356" projectName="dasa-exame-bom" qualifiedName="modelo_pt_BR" sourceCS="FB55FD1CC57CB17A9F26B1A333BC6859" targetCS="3670661356" type="Vocabulary" uuid="b4fcebed-e3bb-4b20-b0e7-87b052cc22c1"/>
+</teamserver>
+<teamserver>
+<target dataSource="" login="rtsAdmin" url="http://192.168.40.157:9090/decisioncenter"/>
+<entry baseType="B2XMapping" checksum="3670661356" projectName="dasa-exame-bom" qualifiedName="modelo" sourceCS="9C0342EBAE98E32A7559675CE591D86D" targetCS="3670661356" type="B2XMapping" uuid="5f6e08e3-ca9d-44c6-a450-7aef82780de8"/>
+<entry baseType="B2XMapping" checksum="1149613294" projectName="dasa-exame-bom" qualifiedName="modelo_exame" sourceCS="76DA04D43510BEDE46EF2A5BF5BB140F" targetCS="1149613294" type="B2XMapping" uuid="cd8e7ca8-cc57-4603-9cd2-35e28836c4fa"/>
+<entry baseType="BusinessObjectModel" checksum="3670661356" projectName="dasa-exame-bom" qualifiedName="modelo" sourceCS="987B74346A2C8D00B35FB312A0264528" targetCS="3670661356" type="BusinessObjectModel" uuid="054c7bbe-a1f4-4a37-9900-9bb1aca03752"/>
+<entry baseType="BusinessObjectModel" checksum="1149613294" projectName="dasa-exame-bom" qualifiedName="modelo_exame" sourceCS="DFFBA2107E512B269CFCC79F985ED608" targetCS="1149613294" type="BusinessObjectModel" uuid="46f54036-7219-4939-b49e-02f94dbd5dda"/>
+<entry baseType="Resource" checksum="2169191410" projectName="dasa-exame-bom" qualifiedName="xom-libraries/dasa-exame-xom.zip" sourceCS="E45F7C3CF3508B730354713F68614EDC" targetCS="2169191410" type="Resource" uuid="xom-libraries/dasa-exame-xom.zip"/>
+<entry baseType="RuleProjectInfo" checksum="4217356102" projectName="dasa-exame-bom" qualifiedName="dasa-exame-bom" sourceCS="E590F9FE033B77CB546C1CE934D661F7" targetCS="4217356102" type="RuleProjectInfo" uuid="22970ce0-2971-4de6-bff1-e360e3dfc7d0"/>
+<entry baseType="Vocabulary" checksum="1149613294" projectName="dasa-exame-bom" qualifiedName="modelo_exame_pt_BR" sourceCS="71E5C6BDE788564B9B16B03042E02B09" targetCS="1149613294" type="Vocabulary" uuid="3355ad05-a70e-49b5-80e8-1d98a0b7c539"/>
+<entry baseType="Vocabulary" checksum="3670661356" projectName="dasa-exame-bom" qualifiedName="modelo_pt_BR" sourceCS="FB55FD1CC57CB17A9F26B1A333BC6859" targetCS="3670661356" type="Vocabulary" uuid="b4fcebed-e3bb-4b20-b0e7-87b052cc22c1"/>
+</teamserver>
+<teamserver>
+<target dataSource="" login="rtsAdmin" url="http://192.168.40.156:9090/decisioncenter"/>
+<entry baseType="B2XMapping" checksum="3670661356" projectName="dasa-exame-bom" qualifiedName="modelo" sourceCS="9C0342EBAE98E32A7559675CE591D86D" targetCS="3670661356" type="B2XMapping" uuid="5f6e08e3-ca9d-44c6-a450-7aef82780de8"/>
+<entry baseType="B2XMapping" checksum="2568187243" projectName="dasa-exame-bom" qualifiedName="modelo_exame" sourceCS="632FDC15D7416BC269282408F8EACE0E" targetCS="2568187243" type="B2XMapping" uuid="cd8e7ca8-cc57-4603-9cd2-35e28836c4fa"/>
+<entry baseType="BusinessObjectModel" checksum="3670661356" projectName="dasa-exame-bom" qualifiedName="modelo" sourceCS="987B74346A2C8D00B35FB312A0264528" targetCS="3670661356" type="BusinessObjectModel" uuid="054c7bbe-a1f4-4a37-9900-9bb1aca03752"/>
+<entry baseType="BusinessObjectModel" checksum="2568187243" projectName="dasa-exame-bom" qualifiedName="modelo_exame" sourceCS="8A993D412456B6833E6A6F116A06BF59" targetCS="2568187243" type="BusinessObjectModel" uuid="46f54036-7219-4939-b49e-02f94dbd5dda"/>
+<entry baseType="Resource" checksum="2260615063" projectName="dasa-exame-bom" qualifiedName="DASA - Domínios Agendamento de Exame.xlsx" sourceCS="EB4CA11A1747A8CD0273F3604F619D77" targetCS="2260615063" type="Resource" uuid="DASA - Domínios Agendamento de Exame.xlsx"/>
+<entry baseType="Resource" checksum="2169191410" projectName="dasa-exame-bom" qualifiedName="xom-libraries/dasa-exame-xom.zip" sourceCS="E45F7C3CF3508B730354713F68614EDC" targetCS="2169191410" type="Resource" uuid="xom-libraries/dasa-exame-xom.zip"/>
+<entry baseType="RuleProjectInfo" checksum="2096722949" projectName="dasa-exame-bom" qualifiedName="dasa-exame-bom" sourceCS="E590F9FE033B77CB546C1CE934D661F7" targetCS="2096722949" type="RuleProjectInfo" uuid="22970ce0-2971-4de6-bff1-e360e3dfc7d0"/>
+<entry baseType="Vocabulary" checksum="2568187243" projectName="dasa-exame-bom" qualifiedName="modelo_exame_pt_BR" sourceCS="BFED5E703D68BDC08559DE7AD81F1FEE" targetCS="2568187243" type="Vocabulary" uuid="3355ad05-a70e-49b5-80e8-1d98a0b7c539"/>
+<entry baseType="Vocabulary" checksum="3670661356" projectName="dasa-exame-bom" qualifiedName="modelo_pt_BR" sourceCS="FB55FD1CC57CB17A9F26B1A333BC6859" targetCS="3670661356" type="Vocabulary" uuid="b4fcebed-e3bb-4b20-b0e7-87b052cc22c1"/>
+</teamserver>
+</teamservers>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="br.com.dasa.Agendamento/adicionarUnidade(java.lang.String)/ACTION#0">
+            <rule id="bde6a60b-895c-4eb5-b51b-3658323887a4"/>
+        </vocElt>
+        <vocElt id="br.com.dasa.Questionario">
+            <rule id="bde6a60b-895c-4eb5-b51b-3658323887a4"/>
+        </vocElt>
+        <vocElt id="br.com.dasa.Questionario/respostas/GETTER#0">
+            <rule id="bde6a60b-895c-4eb5-b51b-3658323887a4"/>
+        </vocElt>
+        <vocElt id="br.com.dasa.Agendamento">
+            <rule id="bde6a60b-895c-4eb5-b51b-3658323887a4"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="bde6a60b-895c-4eb5-b51b-3658323887a4">
+            <vocElt id="br.com.dasa.Agendamento/adicionarUnidade(java.lang.String)/ACTION#0"/>
+            <vocElt id="br.com.dasa.Questionario"/>
+            <vocElt id="br.com.dasa.Questionario/respostas/GETTER#0"/>
+            <vocElt id="br.com.dasa.Agendamento"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="questionario">
+            <rule id="bde6a60b-895c-4eb5-b51b-3658323887a4"/>
+        </param>
+        <param id="agendamento">
+            <rule id="bde6a60b-895c-4eb5-b51b-3658323887a4"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="bde6a60b-895c-4eb5-b51b-3658323887a4">
+            <param id="questionario"/>
+            <param id="agendamento"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="82c48625-2b61-4ab8-abb0-0a307b221a8a">
+            <rule id="bde6a60b-895c-4eb5-b51b-3658323887a4"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/dasa-exame-bom/bom/modelo_pt_BR.voc" id="b4fcebed-e3bb-4b20-b0e7-87b052cc22c1">
+            <rule id="bde6a60b-895c-4eb5-b51b-3658323887a4"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/DefinirUnidadeExame/regras/vars.var" id="82c48625-2b61-4ab8-abb0-0a307b221a8a"/>
+        <resource file="/DefinirUnidadeExame/regras/Unidade Por Grupo/Unidade para Limitação de Locomoção.brl" id="bde6a60b-895c-4eb5-b51b-3658323887a4"/>
+    </resourceTable>
+</impactTables>

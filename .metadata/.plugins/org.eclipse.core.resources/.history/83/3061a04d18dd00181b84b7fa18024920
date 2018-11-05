@@ -1,0 +1,9 @@
+# Vocabulary Properties
+uuid = 3355ad05-a70e-49b5-80e8-1d98a0b7c539
+
+# br.com.dasa.Perguntas
+br.com.dasa.Perguntas#concept.label = br.com.dasa.Perguntas
+br.com.dasa.Perguntas.ACCEPTED#instance.label = Accepted
+br.com.dasa.Perguntas.BLOCKED#instance.label = Blocked
+br.com.dasa.Perguntas.PENDING#instance.label = Pending
+br.com.dasa.Perguntas.REJECTED#instance.label = Rejected

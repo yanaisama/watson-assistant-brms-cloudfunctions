@@ -1,0 +1,8 @@
+package br.com.dasa;
+
+import java.io.Serializable;
+
+public class Cliente implements Serializable{
+	
+
+}

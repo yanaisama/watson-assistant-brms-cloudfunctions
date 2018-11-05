@@ -1,0 +1,23 @@
+
+property uuid "46f54036-7219-4939-b49e-02f94dbd5dda"
+package br.com.dasa;
+
+
+public class Exames
+{
+}
+
+public class Grupos
+{
+}
+
+public class Perguntas
+        property domainValueProviderName "PerguntasValueProvider"
+{
+    domain {}
+}
+
+public class Unidades
+{
+}
+

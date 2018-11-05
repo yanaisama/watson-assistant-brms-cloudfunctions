@@ -1,0 +1,123 @@
+<b2x:translation xmlns:b2x="http://schemas.ilog.com/JRules/1.3/Translation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.ilog.com/JRules/1.3/Translation ilog/rules/schemas/1_3/b2x.xsd">
+    <id>cd8e7ca8-cc57-4603-9cd2-35e28836c4fa</id>
+    <lang>ARL</lang>
+    <class>
+        <businessName>br.com.dasa.ExameTipo</businessName>
+        <executionName>java.lang.String</executionName>
+        <attribute>
+            <name>CREATININA</name>
+            <getter language="irl"><![CDATA[
+            return "CREATININA";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>GLICOSE</name>
+            <getter language="irl"><![CDATA[
+            return "GLICOSE";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>RESSONÂNCIA</name>
+            <getter language="irl"><![CDATA[
+            return "RESSONÂNCIA";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>TRIGLICERIDEOS</name>
+            <getter language="irl"><![CDATA[
+            return "TRIGLICERIDEOS";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>URINA_TIPO_I</name>
+            <getter language="irl"><![CDATA[
+            return "URINA TIPO I";
+            ]]></getter>
+        </attribute>
+        <method>
+            <name>toString</name>
+            <parameter type="br.com.dasa.ExameTipo"/>
+            <body language="arl"><![CDATA[
+            return this.exame.toString();
+            ]]></body>
+        </method>
+    </class>
+    <class>
+        <businessName>br.com.dasa.GrupoTipo</businessName>
+        <executionName>java.lang.String</executionName>
+        <attribute>
+            <name>Deficiente_Auditivo</name>
+            <getter language="irl"><![CDATA[
+            return "Deficiente Auditivo";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Deficiente_Físico</name>
+            <getter language="irl"><![CDATA[
+            return "Deficiente Físico";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Deficiente_Mental</name>
+            <getter language="irl"><![CDATA[
+            return "Deficiente Mental";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Deficiente_Visual</name>
+            <getter language="irl"><![CDATA[
+            return "Definiciente Visual";
+            ]]></getter>
+        </attribute>
+    </class>
+    <class>
+        <businessName>br.com.dasa.PerguntaTipo</businessName>
+        <executionName>java.lang.String</executionName>
+        <attribute>
+            <name>Pegunta_1</name>
+            <getter language="irl"><![CDATA[
+            return "Pegunta 1";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Pegunta_2</name>
+            <getter language="irl"><![CDATA[
+            return "Pegunta 2";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Pegunta_3</name>
+            <getter language="irl"><![CDATA[
+            return "Pegunta 3";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Pegunta_4</name>
+            <getter language="irl"><![CDATA[
+            return "Pegunta 4";
+            ]]></getter>
+        </attribute>
+    </class>
+    <class>
+        <businessName>br.com.dasa.UnidadeTipo</businessName>
+        <executionName>java.lang.String</executionName>
+        <attribute>
+            <name>Mega_Unidade_Tatuape</name>
+            <getter language="irl"><![CDATA[
+            return "Mega Unidade Tatuape";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>NPE</name>
+            <getter language="irl"><![CDATA[
+            return "NPE";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>Unidade_Augusta</name>
+            <getter language="irl"><![CDATA[
+            return "Unidade Augusta";
+            ]]></getter>
+        </attribute>
+    </class>
+</b2x:translation>

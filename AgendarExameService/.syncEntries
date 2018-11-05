@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><teamservers>
+<teamserver>
+<target dataSource="" login="rtsAdmin" url="http://192.168.40.156:9090/decisioncenter"/>
+<entry baseType="DecisionOperation" checksum="2983590897" projectName="AgendarExameService" qualifiedName="ConsultarQuestionario" sourceCS="46253F6FB254B8F17A7DFF8444612EF8" targetCS="2983590897" type="DecisionOperation" uuid="a3a84a0d-52a0-40de-887f-258b9b6a8c30"/>
+<entry baseType="DecisionOperation" checksum="1440203908" projectName="AgendarExameService" qualifiedName="DefinirUnidade" sourceCS="8814BE3777DFCBD877F7E72905CB32C5" targetCS="1440203908" type="DecisionOperation" uuid="0f3d075e-41c7-485a-bce5-d1e5011154e7"/>
+<entry baseType="DeploymentConfiguration" checksum="2365366196" projectName="AgendarExameService" qualifiedName="desenvolvimento" sourceCS="8F1890403286C8238E232FE1CDDD90B9" targetCS="2365366196" type="DeploymentConfiguration" uuid="da5ea58d-5044-4337-8896-b0f5d0cf76ef"/>
+<entry baseType="RuleProjectInfo" checksum="3689929946" projectName="AgendarExameService" qualifiedName="AgendarExameService" sourceCS="CFCADCFB06A808388E256053534A4238" targetCS="3689929946" type="RuleProjectInfo" uuid="d0a7e1f5-fd52-4c96-9644-b40be0fd05de"/>
+</teamserver>
+</teamservers>

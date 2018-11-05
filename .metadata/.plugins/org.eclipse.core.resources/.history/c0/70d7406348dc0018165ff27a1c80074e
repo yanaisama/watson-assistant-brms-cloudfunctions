@@ -1,0 +1,12 @@
+package br.com.dasa;
+
+import ilog.rules.brl.bom.IlrBOMDomainValueProvider;
+
+public class PerguntasValueProvider extends IlrBOMDomainValueProvider {
+
+	public static void main(String[] args) {
+		// TODO Stub de método gerado automaticamente
+
+	}
+
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="AgendarExameService" managingXom="true">
+  <name>desenvolvimento</name>
+  <uuid>da5ea58d-5044-4337-8896-b0f5d0cf76ef</uuid>
+  <targets label="RES"/>
+  <operations operationName="ConsultarQuestionario">
+    <operation href="ConsultarQuestionario.dop#a3a84a0d-52a0-40de-887f-258b9b6a8c30"/>
+    <properties key="ruleset.version">
+      <value><![CDATA[1.0]]></value>
+    </properties>
+  </operations>
+  <operations operationName="DefinirUnidade">
+    <operation href="DefinirUnidade.dop#0f3d075e-41c7-485a-bce5-d1e5011154e7"/>
+    <properties key="ruleset.version">
+      <value><![CDATA[1.0]]></value>
+    </properties>
+  </operations>
+  <versionPolicies label="Aumentar números da versão secundária" ruleset="INCREMENT_MINOR" recurrent="true">
+    <description><![CDATA[Atualizações na versão secundária para cada conjunto de regras. Disponibiliza a nova versão disponível, mas retém versões anteriores.]]></description>
+  </versionPolicies>
+  <versionPolicies label="Use os números de versão base." default="true" recurrent="true">
+    <description><![CDATA[Usa os números fornecidos na configuração de implementação. Substitui a versão mais recente de cada conjunto de regras por esta liberação. Usado para hot fixes ou desenvolvimento.]]></description>
+  </versionPolicies>
+  <versionPolicies label="O usuário pode definir os números de versão" ruleset="MANUAL" recurrent="true">
+    <description><![CDATA[Permite inserir seus próprios números de versão. Usado para hot fixes ou atualizações para uma liberação anterior.]]></description>
+  </versionPolicies>
+</com.ibm.rules.studio.model.decisionservice:Deployment>

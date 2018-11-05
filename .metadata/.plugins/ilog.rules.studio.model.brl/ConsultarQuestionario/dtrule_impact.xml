@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="br.com.dasa.Cliente/imc/GETTER#0">
+            <rule id="d98a3222-1051-40e2-b016-2139257de579"/>
+        </vocElt>
+        <vocElt id="br.com.dasa.Questionario/adicionarPergunta(br.com.dasa.PerguntaTipo)/ACTION#0">
+            <rule id="d98a3222-1051-40e2-b016-2139257de579"/>
+        </vocElt>
+        <vocElt id="br.com.dasa.ExameTipo/TRIGLICERIDEOS">
+            <rule id="d98a3222-1051-40e2-b016-2139257de579"/>
+        </vocElt>
+        <vocElt id="br.com.dasa.Questionario">
+            <rule id="d98a3222-1051-40e2-b016-2139257de579"/>
+        </vocElt>
+        <vocElt id="br.com.dasa.Cliente">
+            <rule id="d98a3222-1051-40e2-b016-2139257de579"/>
+        </vocElt>
+        <vocElt id="br.com.dasa.PerguntaTipo">
+            <rule id="d98a3222-1051-40e2-b016-2139257de579"/>
+        </vocElt>
+        <vocElt id="br.com.dasa.PerguntaTipo/Pergunta_4">
+            <rule id="d98a3222-1051-40e2-b016-2139257de579"/>
+        </vocElt>
+        <vocElt id="br.com.dasa.ExameTipo/toString()/NAVIGATION#0">
+            <rule id="d98a3222-1051-40e2-b016-2139257de579"/>
+        </vocElt>
+        <vocElt id="br.com.dasa.ExameTipo/RESSONÂNCIA">
+            <rule id="d98a3222-1051-40e2-b016-2139257de579"/>
+        </vocElt>
+        <vocElt id="br.com.dasa.ExameTipo">
+            <rule id="d98a3222-1051-40e2-b016-2139257de579"/>
+        </vocElt>
+        <vocElt id="br.com.dasa.ExameTipo/CREATININA">
+            <rule id="d98a3222-1051-40e2-b016-2139257de579"/>
+        </vocElt>
+        <vocElt id="br.com.dasa.ExameTipo/GLICOSE">
+            <rule id="d98a3222-1051-40e2-b016-2139257de579"/>
+        </vocElt>
+        <vocElt id="br.com.dasa.PerguntaTipo/Pergunta_1">
+            <rule id="d98a3222-1051-40e2-b016-2139257de579"/>
+        </vocElt>
+        <vocElt id="br.com.dasa.PerguntaTipo/Pergunta_3">
+            <rule id="d98a3222-1051-40e2-b016-2139257de579"/>
+        </vocElt>
+        <vocElt id="br.com.dasa.PerguntaTipo/Pergunta_2">
+            <rule id="d98a3222-1051-40e2-b016-2139257de579"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="d98a3222-1051-40e2-b016-2139257de579">
+            <vocElt id="br.com.dasa.Cliente/imc/GETTER#0"/>
+            <vocElt id="br.com.dasa.Questionario/adicionarPergunta(br.com.dasa.PerguntaTipo)/ACTION#0"/>
+            <vocElt id="br.com.dasa.ExameTipo/TRIGLICERIDEOS"/>
+            <vocElt id="br.com.dasa.Questionario"/>
+            <vocElt id="br.com.dasa.Cliente"/>
+            <vocElt id="br.com.dasa.PerguntaTipo"/>
+            <vocElt id="br.com.dasa.PerguntaTipo/Pergunta_4"/>
+            <vocElt id="br.com.dasa.ExameTipo/toString()/NAVIGATION#0"/>
+            <vocElt id="br.com.dasa.ExameTipo/RESSONÂNCIA"/>
+            <vocElt id="br.com.dasa.ExameTipo"/>
+            <vocElt id="br.com.dasa.ExameTipo/CREATININA"/>
+            <vocElt id="br.com.dasa.ExameTipo/GLICOSE"/>
+            <vocElt id="br.com.dasa.PerguntaTipo/Pergunta_1"/>
+            <vocElt id="br.com.dasa.PerguntaTipo/Pergunta_3"/>
+            <vocElt id="br.com.dasa.PerguntaTipo/Pergunta_2"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="exame">
+            <rule id="d98a3222-1051-40e2-b016-2139257de579"/>
+        </param>
+        <param id="cliente">
+            <rule id="d98a3222-1051-40e2-b016-2139257de579"/>
+        </param>
+        <param id="questionario">
+            <rule id="d98a3222-1051-40e2-b016-2139257de579"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="d98a3222-1051-40e2-b016-2139257de579">
+            <param id="exame"/>
+            <param id="cliente"/>
+            <param id="questionario"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="9afa2b7d-f514-48c5-9124-5f1ec00d7f66">
+            <rule id="d98a3222-1051-40e2-b016-2139257de579"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/dasa-exame-bom/bom/modelo_exame_pt_BR.voc" id="3355ad05-a70e-49b5-80e8-1d98a0b7c539">
+            <rule id="d98a3222-1051-40e2-b016-2139257de579"/>
+        </vocFile>
+        <vocFile file="/dasa-exame-bom/bom/modelo_pt_BR.voc" id="b4fcebed-e3bb-4b20-b0e7-87b052cc22c1">
+            <rule id="d98a3222-1051-40e2-b016-2139257de579"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/ConsultarQuestionario/regras/Questionario por exame/Questionario por exame e IMC.dta" id="d98a3222-1051-40e2-b016-2139257de579"/>
+        <resource file="/ConsultarQuestionario/regras/vars.var" id="9afa2b7d-f514-48c5-9124-5f1ec00d7f66"/>
+    </resourceTable>
+</impactTables>

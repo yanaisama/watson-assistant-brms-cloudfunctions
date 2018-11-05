@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>fluxoDefinirUnidade</name>
+  <uuid>47fa8dc1-01d5-46cc-a51a-924471435428</uuid>
+  <locale>pt_BR</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_0">
+        <Actions Language="irl"><![CDATA[agendamento = new br.com.dasa.Agendamento()]]></Actions>
+      </StartTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Unidade Por Grupo" Ordering="Default">
+        <RuleList>
+          <Package Name="Unidade Por Grupo"/>
+        </RuleList>
+      </RuleTask>
+      <StopTask Identifier="task_1"/>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node_0" Task="task_0"/>
+      <TaskNode Identifier="node_1" Task="task_1"/>
+      <TaskNode Identifier="node_2" Task="Unidade Por Grupo"/>
+    </NodeList>
+    <TransitionList>
+      <Transition Identifier="transition_0" Source="node_0" Target="node_2"/>
+      <Transition Identifier="transition_1" Source="node_2" Target="node_1"/>
+    </TransitionList>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="pt_BR">
+      <Data Name="node_2#height">68.103516</Data>
+      <Data Name="node_1#height">23.0</Data>
+      <Data Name="node_1#name">node_2</Data>
+      <Data Name="node_2#name">node_2</Data>
+      <Data Name="node_1#width">23.0</Data>
+      <Data Name="node_0#name">node_0</Data>
+      <Data Name="node_2#width">102.0</Data>
+      <Data Name="node_0#x">-238.0</Data>
+      <Data Name="node_0#y">-220.0</Data>
+      <Data Name="node_1#x">-238.0</Data>
+      <Data Name="node_1#y">-5.0</Data>
+      <Data Name="node_2#x">-238.0</Data>
+      <Data Name="node_2#y">-115.0</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties/>
+</Ruleflow></rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>

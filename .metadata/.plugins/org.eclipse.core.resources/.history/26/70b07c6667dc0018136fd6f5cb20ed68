@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>perguntas para urina tipo I</name>
+  <uuid>ef7904cf-0512-4b22-ad98-72552d56fdba</uuid>
+  <locale>pt_BR</locale>
+</ilog.rules.studio.model.brl:ActionRule>

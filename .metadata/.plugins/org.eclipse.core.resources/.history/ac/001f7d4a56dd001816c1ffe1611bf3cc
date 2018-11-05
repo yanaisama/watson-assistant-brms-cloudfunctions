@@ -1,0 +1,19 @@
+<b2x:translation xmlns:b2x="http://schemas.ilog.com/JRules/1.3/Translation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.ilog.com/JRules/1.3/Translation ilog/rules/schemas/1_3/b2x.xsd">
+    <id>d4ce8803-0992-4321-bce7-08d315bec793</id>
+    <lang>ARL</lang>
+    <class>
+        <businessName>br.com.dasa.recursos.exame_model.Questionario</businessName>
+        <import>java.util.Vector</import>
+        <method>
+            <name>adicionarPergunta</name>
+            <parameter type="br.com.dasa.PerguntaTipo"/>
+            <body language="arl"><![CDATA[
+            if(this.perguntasList == null){
+	this.perguntasList = new Vector();
+}else{
+	this.perguntasList.add(pergunta);
+}
+            ]]></body>
+        </method>
+    </class>
+</b2x:translation>

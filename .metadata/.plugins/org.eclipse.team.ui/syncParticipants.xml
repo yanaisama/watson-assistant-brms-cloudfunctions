@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syncparticipants>
+<participant displayName="Rule Designer - Sincronização do Decision Center (/AgendarExameService - principal, /dasa-exame-bom - principal, /DefinirUnidadeExame - principal, /ConsultarQuestionario - principal)" id="ilog.rules.synchronization.eclipseui.syncparticipant" secondary_id="1541376519062">
+<data root="false">
+<org.eclipse.team.ui.TEAMSUBSRCIBERSETTINGS org.eclipse.team.ui.SCOPE_TYPE="ResourceScope">
+<org.eclipse.team.ui.TEAMSUBSRCIBER_REFRESHSCHEDULE org.eclipse.team.ui.CTX_REFRESHSCHEDULE_ENABLED="false" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_INTERVAL="3600" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_RUNONCE="false"/>
+<resource_scope_roots resource_scope_root_resource="/AgendarExameService"/>
+<resource_scope_roots resource_scope_root_resource="/dasa-exame-bom"/>
+<resource_scope_roots resource_scope_root_resource="/DefinirUnidadeExame"/>
+<resource_scope_roots resource_scope_root_resource="/ConsultarQuestionario"/>
+</org.eclipse.team.ui.TEAMSUBSRCIBERSETTINGS>
+</data>
+</participant>
+</syncparticipants>

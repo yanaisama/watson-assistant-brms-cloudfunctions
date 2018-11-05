@@ -1,0 +1,11 @@
+
+property uuid "46f54036-7219-4939-b49e-02f94dbd5dda"
+package br.com.dasa;
+
+
+public class Perguntas
+        property domainValueProviderName "DASValueProvider"
+{
+    domain {}
+}
+

@@ -1,0 +1,15 @@
+# Vocabulary Properties
+uuid = ce5b7c80-7fb4-421d-8dab-0346b44d082b
+
+# br.com.dasa.DasaValueProvider
+br.com.dasa.DasaValueProvider#concept.label = dasa value provider
+
+# br.com.dasa.DomainHelper
+br.com.dasa.DomainHelper#concept.label = domain helper
+
+# br.com.dasa.DomainHelper.Item
+br.com.dasa.DomainHelper.Item#concept.label = item
+br.com.dasa.DomainHelper.Item.name#phrase.navigation = {name} {this,PARTITIVE_ARTICLE}
+br.com.dasa.DomainHelper.Item.translation#phrase.navigation = {translation} {this,PARTITIVE_ARTICLE}
+br.com.dasa.DomainHelper.Item.verbalization#phrase.navigation = {verbalization} {this,PARTITIVE_ARTICLE}
+br.com.dasa.DomainHelper.itemNames#phrase.navigation = {item name} {this,PARTITIVE_ARTICLE}

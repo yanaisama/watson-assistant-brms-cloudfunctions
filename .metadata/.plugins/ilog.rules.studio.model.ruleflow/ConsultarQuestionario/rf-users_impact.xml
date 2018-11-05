@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><ImpactedElements>
+    <Package id="Definicoes">
+        <UserFlow id="03eb3b4d-4567-497c-87c3-303895ed2ebc"/>
+    </Package>
+    <Package id="Questionario por exame">
+        <UserFlow id="03eb3b4d-4567-497c-87c3-303895ed2ebc"/>
+    </Package>
+</ImpactedElements>

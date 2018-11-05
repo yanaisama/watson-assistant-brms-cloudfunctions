@@ -1,0 +1,35 @@
+# Vocabulary Properties
+uuid = b4fcebed-e3bb-4b20-b0e7-87b052cc22c1
+
+# Term: altura
+@altura#gender = FEMALE
+
+# Term: idade
+@idade#gender = FEMALE
+
+# br.com.dasa.Agendamento
+br.com.dasa.Agendamento#concept.label = agendamento
+br.com.dasa.Agendamento.adicionarUnidade(java.lang.String)#phrase.action = adicionar a unidade {0} para {this}
+br.com.dasa.Agendamento.unidadeDisponiveis#phrase.action = atribuir os unidades disponivei {this, PARTITIVE_ARTICLE} a {unidade disponivei}
+br.com.dasa.Agendamento.unidadeDisponiveis#phrase.navigation = {unidade disponivei} {this, PARTITIVE_ARTICLE}
+
+# br.com.dasa.Cliente
+br.com.dasa.Cliente#concept.label = cliente
+br.com.dasa.Cliente.altura#phrase.action = atribuir o altura {this, PARTITIVE_ARTICLE} a {altura}
+br.com.dasa.Cliente.altura#phrase.navigation = {altura} {this, PARTITIVE_ARTICLE}
+br.com.dasa.Cliente.idade#phrase.action = atribuir o idade {this, PARTITIVE_ARTICLE} a {idade}
+br.com.dasa.Cliente.idade#phrase.navigation = {idade} {this, PARTITIVE_ARTICLE}
+br.com.dasa.Cliente.peso#phrase.action = atribuir o peso {this, PARTITIVE_ARTICLE} a {peso}
+br.com.dasa.Cliente.peso#phrase.navigation = {peso} {this, PARTITIVE_ARTICLE}
+br.com.dasa.Cliente.sexo#phrase.action = atribuir o sexo {this, PARTITIVE_ARTICLE} a {sexo}
+br.com.dasa.Cliente.sexo#phrase.navigation = {sexo} {this, PARTITIVE_ARTICLE}
+
+# br.com.dasa.Questionario
+br.com.dasa.Questionario#concept.label = questionario
+br.com.dasa.Questionario.adicionarPergunta(br.com.dasa.PerguntaTipo)#phrase.action = adicionar pergunta {0} ao {this}
+br.com.dasa.Questionario.exame#phrase.action = atribuir o exame {this, PARTITIVE_ARTICLE} a {exame}
+br.com.dasa.Questionario.exame#phrase.navigation = {exame} {this, PARTITIVE_ARTICLE}
+br.com.dasa.Questionario.perguntas#phrase.action = atribuir os perguntas {this, PARTITIVE_ARTICLE} a {pergunta}
+br.com.dasa.Questionario.perguntas#phrase.navigation = {pergunta} {this, PARTITIVE_ARTICLE}
+br.com.dasa.Questionario.respostas#phrase.action = atribuir os respostas {this, PARTITIVE_ARTICLE} a {resposta}
+br.com.dasa.Questionario.respostas#phrase.navigation = {resposta} {this, PARTITIVE_ARTICLE}

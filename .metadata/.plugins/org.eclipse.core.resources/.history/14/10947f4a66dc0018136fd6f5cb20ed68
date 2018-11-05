@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>fluxoQuestionario</name>
+  <uuid>03eb3b4d-4567-497c-87c3-303895ed2ebc</uuid>
+  <locale>pt_BR</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_0"/>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Filtro por Grupos" Ordering="Default">
+        <RuleList>
+          <Package Name="Filtro por Grupos"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Definicoes" Ordering="Default">
+        <RuleList>
+          <Package Name="Definicoes"/>
+        </RuleList>
+      </RuleTask>
+      <StopTask Identifier="task_1"/>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node_0" Task="task_0"/>
+      <TaskNode Identifier="node_1" Task="task_1"/>
+      <TaskNode Identifier="node_2" Task="Filtro por Grupos"/>
+      <TaskNode Identifier="node_3" Task="Definicoes"/>
+    </NodeList>
+    <TransitionList>
+      <Transition Identifier="transition_0" Source="node_0" Target="node_3"/>
+      <Transition Identifier="transition_1" Source="node_2" Target="node_1"/>
+      <Transition Identifier="transition_2" Source="node_3" Target="node_2"/>
+    </TransitionList>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="pt_BR">
+      <Data Name="node_2#height">53.402344</Data>
+      <Data Name="node_1#height">23.0</Data>
+      <Data Name="node_3#height">40.0</Data>
+      <Data Name="node_1#name">node_2</Data>
+      <Data Name="node_3#width">102.0</Data>
+      <Data Name="node_1#width">23.0</Data>
+      <Data Name="node_0#name">node_0</Data>
+      <Data Name="node_2#width">102.0</Data>
+      <Data Name="node_3#y">-124.0</Data>
+      <Data Name="node_0#x">-303.0</Data>
+      <Data Name="node_0#y">-208.0</Data>
+      <Data Name="node_1#x">-303.0</Data>
+      <Data Name="node_1#y">61.0</Data>
+      <Data Name="node_2#x">-303.0</Data>
+      <Data Name="node_2#y">-37.0</Data>
+      <Data Name="node_3#x">-303.0</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties/>
+</Ruleflow></rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>

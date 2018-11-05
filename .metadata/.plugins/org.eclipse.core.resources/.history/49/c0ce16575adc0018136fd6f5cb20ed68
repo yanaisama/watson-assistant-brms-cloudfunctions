@@ -1,0 +1,20 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/dasa-exame-bom//dasa-exame-bom/recursos/exame_model.xsd"
+property uuid "ff4fe1e6-3f71-413c-9313-e40a94b17e66"
+package br.com.dasa.recursos.exame_model;
+
+
+public class Cliente
+        extends ilog.rules.xml.IlrXmlObject
+{
+    public double altura;
+    public int idade;
+    public int peso;
+    public string sexo domain {"masculino", "feminino"};
+    public Cliente();
+    public void setUnknownAltura();
+    public void setUnknownIdade();
+    public void setUnknownPeso();
+}
+

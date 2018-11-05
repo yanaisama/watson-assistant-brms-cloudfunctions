@@ -1,0 +1,54 @@
+
+property uuid "46f54036-7219-4939-b49e-02f94dbd5dda"
+package br.com.dasa;
+
+
+public class ExameTipo
+        property domainValueProviderName "dasa-plugin.bomDomainValueProvider"
+{
+    domain {static URINA_TIPO_I, static GLICOSE, static TRIGLICERIDEOS, static CREATININA, static RESSONÂNCIA}
+    public static final readonly br.com.dasa.ExameTipo CREATININA;
+    public static final readonly br.com.dasa.ExameTipo GLICOSE;
+    public static final readonly br.com.dasa.ExameTipo RESSONÂNCIA;
+    public static final readonly br.com.dasa.ExameTipo TRIGLICERIDEOS;
+    public static final readonly br.com.dasa.ExameTipo URINA_TIPO_I;
+    public string toString();
+}
+
+public class GrupoTipo
+        property domainValueProviderName "dasa-plugin.bomDomainValueProvider"
+{
+    domain {static Deficiente_Visual, static Deficiente_Físico, static Deficiente_Auditivo, static Deficiente_Mental}
+    public static final readonly br.com.dasa.GrupoTipo Deficiente_Auditivo;
+    public static final readonly br.com.dasa.GrupoTipo Deficiente_Físico;
+    public static final readonly br.com.dasa.GrupoTipo Deficiente_Mental;
+    public static final readonly br.com.dasa.GrupoTipo Deficiente_Visual;
+}
+
+public class PerguntaTipo
+        property "com.ibm.rules.domainProvider.msexcel.b2xColumn" "1"
+        property "com.ibm.rules.domainProvider.msexcel.hasHeader" "true"
+        property "com.ibm.rules.domainProvider.msexcel.labelColumn.pt" "2"
+        property "com.ibm.rules.domainProvider.msexcel.sheetIndex" "2"
+        property "com.ibm.rules.domainProvider.msexcel.valueColumn" "0"
+        property domainProviderResource "DASA - Domínios Agendamento de Exame.xlsx"
+        property domainValueProviderName "com.ibm.rules.domainProvider.msexcel2007"
+{
+    domain {static Pergunta_1, static Pergunta_2, static Pergunta_3, static Pergunta_4, static Pergunta_5, static Pergunta_6}
+    public static final readonly br.com.dasa.PerguntaTipo Pergunta_1;
+    public static final readonly br.com.dasa.PerguntaTipo Pergunta_2;
+    public static final readonly br.com.dasa.PerguntaTipo Pergunta_3;
+    public static final readonly br.com.dasa.PerguntaTipo Pergunta_4;
+    public static final readonly br.com.dasa.PerguntaTipo Pergunta_5;
+    public static final readonly br.com.dasa.PerguntaTipo Pergunta_6;
+}
+
+public class UnidadeTipo
+        property domainValueProviderName "dasa-plugin.bomDomainValueProvider"
+{
+    domain {static Mega_Unidade_Tatuape, static Unidade_Augusta, static NPE}
+    public static final readonly br.com.dasa.UnidadeTipo Mega_Unidade_Tatuape;
+    public static final readonly br.com.dasa.UnidadeTipo NPE;
+    public static final readonly br.com.dasa.UnidadeTipo Unidade_Augusta;
+}
+

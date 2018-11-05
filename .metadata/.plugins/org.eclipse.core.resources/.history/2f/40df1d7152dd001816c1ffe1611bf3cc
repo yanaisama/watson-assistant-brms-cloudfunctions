@@ -1,0 +1,16 @@
+# Vocabulary Properties
+uuid = 36fece25-b575-4403-85fe-e5af8d07331e
+
+# Term: altura
+@altura#gender = FEMALE
+
+# br.com.dasa.recursos.exame_model.Cliente
+br.com.dasa.recursos.exame_model.Cliente#concept.label = cliente
+br.com.dasa.recursos.exame_model.Cliente.altura#phrase.action = atribuir o altura {this, PARTITIVE_ARTICLE} a {altura}
+br.com.dasa.recursos.exame_model.Cliente.altura#phrase.navigation = {altura} {this, PARTITIVE_ARTICLE}
+br.com.dasa.recursos.exame_model.Cliente.idade#phrase.action = atribuir o idade {this, PARTITIVE_ARTICLE} a {idade}
+br.com.dasa.recursos.exame_model.Cliente.idade#phrase.navigation = {idade} {this, PARTITIVE_ARTICLE}
+br.com.dasa.recursos.exame_model.Cliente.peso#phrase.action = atribuir o peso {this, PARTITIVE_ARTICLE} a {peso}
+br.com.dasa.recursos.exame_model.Cliente.peso#phrase.navigation = {peso} {this, PARTITIVE_ARTICLE}
+br.com.dasa.recursos.exame_model.Cliente.sexo#phrase.action = atribuir o sexo {this, PARTITIVE_ARTICLE} a {sexo}
+br.com.dasa.recursos.exame_model.Cliente.sexo#phrase.navigation = {sexo} {this, PARTITIVE_ARTICLE}

@@ -1,0 +1,20 @@
+package br.com.dasa;
+
+import java.util.List;
+
+public class Questionario {
+	List<String> perguntas;
+
+	public List<String> getPerguntas() {
+		return perguntas;
+	}
+
+	public void setPerguntas(List<String> perguntas) {
+		this.perguntas = perguntas;
+	}
+	
+	public void adicionarPergunta(String pergunta){
+		this.perguntas.add(pergunta);
+	}
+	
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="ConsultarQuestionario" usingRuleflow="true" ruleflowName="fluxoQuestionario" targetRuleProjectName="ConsultarQuestionario">
+  <name>ConsultarQuestionario</name>
+  <uuid>a3a84a0d-52a0-40de-887f-258b9b6a8c30</uuid>
+  <referencedVariables variableName="exame" variableSetName="vars" direction="IN_OUT">
+    <variableSet href="../../ConsultarQuestionario/regras/vars.var#9afa2b7d-f514-48c5-9124-5f1ec00d7f66"/>
+  </referencedVariables>
+  <ruleflow href="../../ConsultarQuestionario/regras/fluxoQuestionario.rfl#03eb3b4d-4567-497c-87c3-303895ed2ebc"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="ConsultarQuestionario_extractor" validator="Validador Padrão"/>
+  <targetRuleProject href="../../ConsultarQuestionario#3039346a-c396-414c-a7d7-69f2465dadaf"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

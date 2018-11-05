@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SynchronizeViewSettings">
+		<item value="1541376519062" key="lastactiveparticipant_sec_id"/>
+		<item value="ilog.rules.synchronization.eclipseui.syncparticipant" key="lastactiveparticipant_id"/>
+		<item value="false" key="linkWithEditor"/>
+		<section name="ilog.rules.synchronization.eclipseui.syncparticipant.1541376519062">
+			<item value="org.eclipse.team.ui.modelprovider_compressedfolders" key="org.eclipse.team.ui.P_LAST_MODELPROVIDER"/>
+		</section>
+		<section name="ilog.rules.synchronization.eclipseui.syncparticipant.1541087206240">
+			<item value="org.eclipse.team.ui.modelprovider_compressedfolders" key="org.eclipse.team.ui.P_LAST_MODELPROVIDER"/>
+		</section>
+		<section name="ilog.rules.synchronization.eclipseui.syncparticipant.1541348140767">
+			<item value="org.eclipse.team.ui.modelprovider_compressedfolders" key="org.eclipse.team.ui.P_LAST_MODELPROVIDER"/>
+		</section>
+		<section name="ilog.rules.synchronization.eclipseui.syncparticipant.1541209141122">
+		</section>
+		<section name="ilog.rules.synchronization.eclipseui.syncparticipant.1541209032682">
+		</section>
+	</section>
+</section>

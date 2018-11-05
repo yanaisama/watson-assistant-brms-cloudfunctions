@@ -1,0 +1,13 @@
+[ {
+  "name" : "Development Environment",
+  "url" : "https://ppsa-br-odm.bpm.ibmcloud.com/odm/dev/res",
+  "isProduction" : false
+}, {
+  "name" : "Test Environment",
+  "url" : "https://ppsa-br-odm.bpm.ibmcloud.com/odm/test/res",
+  "isProduction" : false
+}, {
+  "name" : "Production Environment",
+  "url" : "https://ppsa-br-odm.bpm.ibmcloud.com/odm/prod/res",
+  "isProduction" : true
+} ]

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="DefinirUnidade" usingRuleflow="true" ruleflowName="fluxoDefinirUnidade" targetRuleProjectName="DefinirUnidadeExame">
+  <name>DefinirUnidade</name>
+  <uuid>0f3d075e-41c7-485a-bce5-d1e5011154e7</uuid>
+  <referencedVariables variableName="respostasQuestionario" variableSetName="vars">
+    <variableSet href="../../DefinirUnidadeExame/regras/vars.var#82c48625-2b61-4ab8-abb0-0a307b221a8a"/>
+  </referencedVariables>
+  <referencedVariables variableName="unidadesDisponiveis" variableSetName="vars" direction="OUT">
+    <variableSet href="../../DefinirUnidadeExame/regras/vars.var#82c48625-2b61-4ab8-abb0-0a307b221a8a"/>
+  </referencedVariables>
+  <ruleflow href="../../DefinirUnidadeExame/regras/fluxoDefinirUnidade.rfl#47fa8dc1-01d5-46cc-a51a-924471435428"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="DefinirUnidade_extractor" validator="Validador Padrão"/>
+  <targetRuleProject href="../../DefinirUnidadeExame#3416a0d3-c409-4893-90d5-b298f7457fdc"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

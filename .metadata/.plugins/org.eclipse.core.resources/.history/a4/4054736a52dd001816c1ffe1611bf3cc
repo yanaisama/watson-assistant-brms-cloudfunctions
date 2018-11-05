@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>calcular IMC</name>
+  <uuid>05a2e454-6b2d-44d1-9479-b2a54ccecae9</uuid>
+  <locale>pt_BR</locale>
+  <definition><![CDATA[então 
+	atribuir à IMC o valor o peso de cliente / (o altura de cliente * o altura de cliente) ; ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

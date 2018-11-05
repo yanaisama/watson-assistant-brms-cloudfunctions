@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.org.eclipse.jdt.core.external.folders</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.link0</name>
+			<type>2</type>
+			<location>C:/IBM/BPMShared/plugins/ilog.rules.studio.shared_8.9.0.0</location>
+		</link>
+		<link>
+			<name>.link1</name>
+			<type>2</type>
+			<location>C:/IBM/BPMShared/plugins/ilog.rules.shared_8.9.0.0</location>
+		</link>
+		<link>
+			<name>.link2</name>
+			<type>2</type>
+			<location>C:/IBM/BPMShared/plugins/ilog.rules.language.shared_8.9.0.0</location>
+		</link>
+		<link>
+			<name>.link3</name>
+			<type>2</type>
+			<location>C:/IBM/BPMShared/plugins/ilog.rules.commonbrm.model_8.9.0.0</location>
+		</link>
+		<link>
+			<name>.link4</name>
+			<type>2</type>
+			<location>C:/IBM/BPMShared/plugins/ilog.rules.commonbrm.extension_8.9.0.0</location>
+		</link>
+	</linkedResources>
+</projectDescription>

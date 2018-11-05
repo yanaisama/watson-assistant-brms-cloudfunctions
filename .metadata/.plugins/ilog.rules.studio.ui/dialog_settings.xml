@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="DynamicXOMPathBuilderPropertyPage">
+		<item value="0" key="DynamicXOMPathBuilderPropertyPage.PageIndex"/>
+	</section>
+	<section name="XOMPathBuilderPropertyPage">
+		<item value="0" key="XOMPathBuilderPropertyPage.PageIndex"/>
+	</section>
+	<section name="BOMPathBuilderPropertyPage">
+		<item value="0" key="BOMPathBuilderPropertyPage.PageIndex"/>
+	</section>
+</section>

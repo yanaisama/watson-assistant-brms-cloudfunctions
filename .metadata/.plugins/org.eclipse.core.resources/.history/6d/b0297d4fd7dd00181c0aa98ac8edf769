@@ -1,0 +1,26 @@
+package br.com.dasa;
+
+import java.io.Serializable;
+import java.util.List;
+
+public class Questionario implements Serializable{
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6839579691165832076L;
+	List<String> perguntas;
+
+	public List<String> getPerguntas() {
+		return perguntas;
+	}
+
+	public void setPerguntas(List<String> perguntas) {
+		this.perguntas = perguntas;
+	}
+	
+	public void adicionarPergunta(String pergunta){
+		this.perguntas.add(pergunta);
+	}
+	
+}

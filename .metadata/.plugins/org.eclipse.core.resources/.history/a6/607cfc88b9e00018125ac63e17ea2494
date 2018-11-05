@@ -1,0 +1,35 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/dasa-exame-bom//dasa-exame-xom"
+property uuid "054c7bbe-a1f4-4a37-9900-9bb1aca03752"
+package br.com.dasa;
+
+
+public class Agendamento
+{
+    public java.util.List unidadesDisponiveis domain 0,* class string;
+    public Agendamento();
+    public void adicionarUnidade(string arg);
+}
+
+public class Cliente
+        extends java.io.Serializable
+{
+    public double altura;
+    public int idade;
+    public double peso;
+    public string sexo;
+    public Cliente();
+}
+
+public class Questionario
+        extends java.io.Serializable
+{
+    public string exame;
+    public java.util.List perguntas domain 0,* class string;
+    public java.util.List respostas domain 0,* class string;
+    public Questionario();
+    public void adicionarPergunta(br.com.dasa.PerguntaTipo arg);
+    public void adicionarPergunta(string arg);
+}
+

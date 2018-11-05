@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Mover elemento &apos;Questionario.java&apos; para &apos;dasa-exame-xom/src/br.com.dasa&apos;&#x0D;&#x0A;- Projeto original: &apos;dasa-exame-xom&apos;&#x0D;&#x0A;- Elemento de destino: &apos;dasa-exame-xom/src/br.com.dasa&apos;&#x0D;&#x0A;- Elemento original: &apos;Questionario.java&apos;&#x0D;&#x0A;- Atualizar referências para elemento recriado" description="Mover unidade de compilação" destination="/src&lt;br.com.dasa" element1="/src&lt;{Questionario.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" log="/src&lt;&#x09;/src&lt;br.com.dasa" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1541024233799" units="1" version="1.0"/>
+</session>

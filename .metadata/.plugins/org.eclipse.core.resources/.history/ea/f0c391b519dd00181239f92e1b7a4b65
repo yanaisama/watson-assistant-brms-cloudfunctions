@@ -1,0 +1,31 @@
+
+property uuid "46f54036-7219-4939-b49e-02f94dbd5dda"
+package br.com.dasa;
+
+
+public class ExameTipo
+        property domValueProviderName "dasa-plugin.bomDomainValueProvider"
+{
+    domain {}
+}
+
+public class GrupoTipo
+{
+    domain {}
+}
+
+public class PerguntaTipo
+        property domainValueProviderName "dasa-plugin.bomDomainValueProvider"
+{
+    domain {static ACCEPTED, static REJECTED, static PENDING, static BLOCKED}
+    public static final readonly br.com.dasa.PerguntaTipo ACCEPTED;
+    public static final readonly br.com.dasa.PerguntaTipo BLOCKED;
+    public static final readonly br.com.dasa.PerguntaTipo PENDING;
+    public static final readonly br.com.dasa.PerguntaTipo REJECTED;
+}
+
+public class UnidadeTipo
+{
+    domain {}
+}
+

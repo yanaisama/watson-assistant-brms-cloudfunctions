@@ -1,0 +1,8 @@
+<b2x:translation xmlns:b2x="http://schemas.ilog.com/JRules/1.3/Translation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.ilog.com/JRules/1.3/Translation ilog/rules/schemas/1_3/b2x.xsd">
+    <id>cd8e7ca8-cc57-4603-9cd2-35e28836c4fa</id>
+    <lang>ARL</lang>
+    <class>
+        <businessName>br.com.dasa.Perguntas</businessName>
+        <executionName>java.lang.String</executionName>
+    </class>
+</b2x:translation>

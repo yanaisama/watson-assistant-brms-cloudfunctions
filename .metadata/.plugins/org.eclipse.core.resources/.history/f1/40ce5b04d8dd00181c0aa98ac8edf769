@@ -1,0 +1,46 @@
+
+property uuid "46f54036-7219-4939-b49e-02f94dbd5dda"
+package br.com.dasa;
+
+
+public class ExameTipo
+        property domainValueProviderName "dasa-plugin.bomDomainValueProvider"
+{
+    domain {static URINA_TIPO_I, static GLICOSE, static TRIGLICERIDEOS, static CREATININA, static RESSONÂNCIA}
+    public static final readonly br.com.dasa.ExameTipo CREATININA;
+    public static final readonly br.com.dasa.ExameTipo GLICOSE;
+    public static final readonly br.com.dasa.ExameTipo RESSONÂNCIA;
+    public static final readonly br.com.dasa.ExameTipo TRIGLICERIDEOS;
+    public static final readonly br.com.dasa.ExameTipo URINA_TIPO_I;
+    public string toString();
+}
+
+public class GrupoTipo
+        property domainValueProviderName "dasa-plugin.bomDomainValueProvider"
+{
+    domain {static Deficiente_Visual, static Deficiente_Físico, static Deficiente_Auditivo, static Deficiente_Mental}
+    public static final readonly br.com.dasa.GrupoTipo Deficiente_Auditivo;
+    public static final readonly br.com.dasa.GrupoTipo Deficiente_Físico;
+    public static final readonly br.com.dasa.GrupoTipo Deficiente_Mental;
+    public static final readonly br.com.dasa.GrupoTipo Deficiente_Visual;
+}
+
+public class PerguntaTipo
+        property domainValueProviderName "dasa-plugin.bomDomainValueProvider"
+{
+    domain {static Pegunta_1, static Pegunta_2, static Pegunta_3, static Pegunta_4}
+    public static final readonly br.com.dasa.PerguntaTipo Pegunta_1;
+    public static final readonly br.com.dasa.PerguntaTipo Pegunta_2;
+    public static final readonly br.com.dasa.PerguntaTipo Pegunta_3;
+    public static final readonly br.com.dasa.PerguntaTipo Pegunta_4;
+}
+
+public class UnidadeTipo
+        property domainValueProviderName "dasa-plugin.bomDomainValueProvider"
+{
+    domain {static Mega_Unidade_Tatuape, static Unidade_Augusta, static NPE}
+    public static final readonly br.com.dasa.UnidadeTipo Mega_Unidade_Tatuape;
+    public static final readonly br.com.dasa.UnidadeTipo NPE;
+    public static final readonly br.com.dasa.UnidadeTipo Unidade_Augusta;
+}
+

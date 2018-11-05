@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>vars</name>
+  <uuid>9afa2b7d-f514-48c5-9124-5f1ec00d7f66</uuid>
+  <variables name="exame" type="java.lang.String" initialValue="" verbalization="nome do exame"/>
+  <variables name="cliente" type="br.com.dasa.recursos.exame_model.Cliente" initialValue="" verbalization="cliente"/>
+  <variables name="perguntaFiltradas" type="java.util.List" initialValue="" verbalization="questionario"/>
+  <variables name="imc" type="java.lang.Integer" initialValue="0" verbalization="IMC"/>
+</ilog.rules.studio.model.base:VariableSet>

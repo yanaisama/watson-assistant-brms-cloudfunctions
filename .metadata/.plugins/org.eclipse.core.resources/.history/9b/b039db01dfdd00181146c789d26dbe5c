@@ -1,0 +1,19 @@
+package br.com.dasa;
+
+import java.util.List;
+
+public class Agendamento {
+	
+	private List<String> unidadeDisponiveis;
+
+	public List<String> getUnidadeDisponiveis() {
+		return unidadeDisponiveis;
+	}
+
+	public void setUnidadeDisponiveis(List<String> unidadeDisponiveis) {
+		this.unidadeDisponiveis = unidadeDisponiveis;
+	}
+	
+	
+
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="ilog.rules.studio.model.bomDomainValueProviders">
+      <bomDomainValueProvider
+            id="dasa-plugin.bomDomainValueProvider1"
+            name="dasa-plugin.bomDomainValueProvider1">
+      </bomDomainValueProvider>
+   </extension>
+
+</plugin>

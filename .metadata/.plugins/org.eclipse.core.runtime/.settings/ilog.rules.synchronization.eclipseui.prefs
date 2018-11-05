@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+repositories/luiz.yanai@scalait.com@https%%%ppsa-br-odm.bpm.ibmcloud.com%odm%dev%decisioncenter/location=luiz.yanai@scalait.com@https\://ppsa-br-odm.bpm.ibmcloud.com/odm/dev/decisioncenter
+repositories/rtsAdmin@http%%%192.168.40.144%9090%decisioncenter/location=rtsAdmin@http\://192.168.40.144\:9090/decisioncenter
+repositories/rtsAdmin@http%%%192.168.40.156%9090%decisioncenter/location=rtsAdmin@http\://192.168.40.156\:9090/decisioncenter
+repositories/rtsAdmin@http%%%192.168.40.157%9090%decisioncenter/location=rtsAdmin@http\://192.168.40.157\:9090/decisioncenter

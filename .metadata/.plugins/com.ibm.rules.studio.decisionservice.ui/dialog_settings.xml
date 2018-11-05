@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.ibm.rules.studio.decisionservice.ui.deployment.wizards.SDsDeploymentWizard">
+		<item value="true" key="com.ibm.rules.studio.decisionservice.ui.deployment.wizards.SDsDeploymentActionPage.SETTING_OVERWRITE"/>
+	</section>
+</section>

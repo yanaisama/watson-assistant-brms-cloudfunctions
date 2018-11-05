@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?pde version="3.8"?><target name="Plataforma em Execução" sequenceNumber="4">
+<locations>
+<location path="${eclipse_home}" type="Profile"/>
+</locations>
+<environment>
+<os>win32</os>
+<ws>win32</ws>
+<arch>x86_64</arch>
+<nl>pt_BR</nl>
+</environment>
+<launcherArgs>
+<vmArgs>-Xmx1024m -Dsun.java2d.d3d=false -Xargencoding:utf8 -Dfile.encoding=UTF-8</vmArgs>
+</launcherArgs>
+</target>

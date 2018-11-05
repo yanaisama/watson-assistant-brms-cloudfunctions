@@ -1,0 +1,27 @@
+# Vocabulary Properties
+uuid = 3355ad05-a70e-49b5-80e8-1d98a0b7c539
+
+# br.com.dasa.ExameTipo
+br.com.dasa.ExameTipo#concept.label = br.com.dasa.ExameTipo
+br.com.dasa.ExameTipo.CREATININA#instance.label = CREATININA
+br.com.dasa.ExameTipo.GLICOSE#instance.label = GLICOSE
+br.com.dasa.ExameTipo.RESSONÂNCIA#instance.label = RESSONÂNCIA
+br.com.dasa.ExameTipo.TRIGLICERIDEOS#instance.label = TRIGLICERIDEOS
+br.com.dasa.ExameTipo.URINA_TIPO_I#instance.label = URINA TIPO I
+br.com.dasa.ExameTipo.toString()#phrase.navigation = chamado {this} 
+
+# br.com.dasa.GrupoTipo
+br.com.dasa.GrupoTipo#concept.label = br.com.dasa.GrupoTipo
+br.com.dasa.GrupoTipo.Deficiente_Auditivo#instance.label = Deficiente Auditivo
+br.com.dasa.GrupoTipo.Deficiente_Físico#instance.label = Deficiente Físico
+br.com.dasa.GrupoTipo.Deficiente_Mental#instance.label = Deficiente Mental
+br.com.dasa.GrupoTipo.Deficiente_Visual#instance.label = Definiciente Visual
+
+# br.com.dasa.PerguntaTipo
+br.com.dasa.PerguntaTipo#concept.label = br.com.dasa.Perguntas
+
+# br.com.dasa.UnidadeTipo
+br.com.dasa.UnidadeTipo#concept.label = br.com.dasa.UnidadeTipo
+br.com.dasa.UnidadeTipo.Mega_Unidade_Tatuape#instance.label = Mega Unidade Tatuape
+br.com.dasa.UnidadeTipo.NPE#instance.label = NPE
+br.com.dasa.UnidadeTipo.Unidade_Augusta#instance.label = Unidade Augusta

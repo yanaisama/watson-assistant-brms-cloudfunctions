@@ -1,0 +1,20 @@
+package br.com.dasa;
+
+import ilog.rules.bom.IlrEnumeratedDomain;
+import ilog.rules.brl.bom.IlrBOMDomainValueProvider;
+import ilog.rules.vocabulary.model.IlrConcept;
+
+public class PerguntasValueProvider extends IlrBOMDomainValueProvider {
+
+	public PerguntasValueProvider(IlrEnumeratedDomain domain,
+			String valueDescriptorProp, IlrConcept concept) {
+		super(domain, valueDescriptorProp, concept);
+		// TODO Stub de compilador gerado automaticamente
+	}
+
+	public static void main(String[] args) {
+		// TODO Stub de método gerado automaticamente
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Renomear o recurso &apos;ConsultarQuestionario/regras/Filtro por Grupos&apos; para &apos;Questionario por exame&apos;" description="Renomear o recurso &apos;Filtro por Grupos&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="regras/Filtro por Grupos" name="Questionario por exame" stamp="1540919253276" updateReferences="true"/>
+</session>

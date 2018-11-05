@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><teamservers>
+<teamserver>
+<target dataSource="" login="rtsAdmin" url="http://192.168.40.144:9090/decisioncenter"/>
+<entry baseType="Ruleflow" checksum="1548361039" projectName="ConsultarQuestionario" qualifiedName="fluxoQuestionario" sourceCS="DC68222EF2FA5D53253C55B96E1B3D74" targetCS="1548361039" type="Ruleflow" uuid="03eb3b4d-4567-497c-87c3-303895ed2ebc"/>
+<entry baseType="RulePackageInfo" checksum="2562515563" projectName="ConsultarQuestionario" qualifiedName="Definicoes" sourceCS="0B2507B724175AC59E3CAD4A0C5053D1" targetCS="2562515563" type="RulePackageInfo" uuid="95b90215-dde7-4b0f-8ff4-e99ae8ae9626"/>
+<entry baseType="RulePackageInfo" checksum="3507767627" projectName="ConsultarQuestionario" qualifiedName="Questionario por exame" sourceCS="3F7F81709321CB85E45548D14D3654A5" targetCS="3507767627" type="RulePackageInfo" uuid="00ba2442-2831-4737-a174-113bda966999"/>
+<entry baseType="RuleProjectInfo" checksum="1323197513" projectName="ConsultarQuestionario" qualifiedName="ConsultarQuestionario" sourceCS="5959B004E021C840CD0CCA4DF7B9ACD1" targetCS="1323197513" type="RuleProjectInfo" uuid="3039346a-c396-414c-a7d7-69f2465dadaf"/>
+<entry baseType="VariableSet" checksum="3703294205" projectName="ConsultarQuestionario" qualifiedName="vars" sourceCS="B360879F87D1F1CC4ACEDCE21D15031C" targetCS="3703294205" type="VariableSet" uuid="9afa2b7d-f514-48c5-9124-5f1ec00d7f66"/>
+</teamserver>
+<teamserver>
+<target dataSource="" login="rtsAdmin" url="http://192.168.40.157:9090/decisioncenter"/>
+<entry baseType="BRLRule" checksum="1901174189" projectName="ConsultarQuestionario" qualifiedName="Definicoes.calcular IMC" sourceCS="2B25DB687FECE4FE727953DA75227820" targetCS="1901174189" type="BRLRule" uuid="05a2e454-6b2d-44d1-9479-b2a54ccecae9"/>
+<entry baseType="DecisionTable" checksum="1698680745" projectName="ConsultarQuestionario" qualifiedName="Questionario por exame.Questionario por exame e IMC" sourceCS="F2D9B31464E30CE0ACB6BDD4E1F84266" targetCS="1698680745" type="DecisionTable" uuid="d98a3222-1051-40e2-b016-2139257de579"/>
+<entry baseType="Ruleflow" checksum="1548361039" projectName="ConsultarQuestionario" qualifiedName="fluxoQuestionario" sourceCS="DC68222EF2FA5D53253C55B96E1B3D74" targetCS="1548361039" type="Ruleflow" uuid="03eb3b4d-4567-497c-87c3-303895ed2ebc"/>
+<entry baseType="RulePackageInfo" checksum="2562515563" projectName="ConsultarQuestionario" qualifiedName="Definicoes" sourceCS="0B2507B724175AC59E3CAD4A0C5053D1" targetCS="2562515563" type="RulePackageInfo" uuid="95b90215-dde7-4b0f-8ff4-e99ae8ae9626"/>
+<entry baseType="RulePackageInfo" checksum="3507767627" projectName="ConsultarQuestionario" qualifiedName="Questionario por exame" sourceCS="3F7F81709321CB85E45548D14D3654A5" targetCS="3507767627" type="RulePackageInfo" uuid="00ba2442-2831-4737-a174-113bda966999"/>
+<entry baseType="RuleProjectInfo" checksum="1323197513" projectName="ConsultarQuestionario" qualifiedName="ConsultarQuestionario" sourceCS="5959B004E021C840CD0CCA4DF7B9ACD1" targetCS="1323197513" type="RuleProjectInfo" uuid="3039346a-c396-414c-a7d7-69f2465dadaf"/>
+<entry baseType="VariableSet" checksum="3703294205" projectName="ConsultarQuestionario" qualifiedName="vars" sourceCS="B360879F87D1F1CC4ACEDCE21D15031C" targetCS="3703294205" type="VariableSet" uuid="9afa2b7d-f514-48c5-9124-5f1ec00d7f66"/>
+</teamserver>
+<teamserver>
+<target dataSource="" login="rtsAdmin" url="http://192.168.40.156:9090/decisioncenter"/>
+<entry baseType="BRLRule" checksum="1901174189" projectName="ConsultarQuestionario" qualifiedName="Definicoes.calcular IMC" sourceCS="2B25DB687FECE4FE727953DA75227820" targetCS="1901174189" type="BRLRule" uuid="05a2e454-6b2d-44d1-9479-b2a54ccecae9"/>
+<entry baseType="DecisionTable" checksum="1698680745" projectName="ConsultarQuestionario" qualifiedName="Questionario por exame.Questionario por exame e IMC" sourceCS="F2D9B31464E30CE0ACB6BDD4E1F84266" targetCS="1698680745" type="DecisionTable" uuid="d98a3222-1051-40e2-b016-2139257de579"/>
+<entry baseType="Ruleflow" checksum="1548361039" projectName="ConsultarQuestionario" qualifiedName="fluxoQuestionario" sourceCS="DC68222EF2FA5D53253C55B96E1B3D74" targetCS="1548361039" type="Ruleflow" uuid="03eb3b4d-4567-497c-87c3-303895ed2ebc"/>
+<entry baseType="RulePackageInfo" checksum="2562515563" projectName="ConsultarQuestionario" qualifiedName="Definicoes" sourceCS="0B2507B724175AC59E3CAD4A0C5053D1" targetCS="2562515563" type="RulePackageInfo" uuid="95b90215-dde7-4b0f-8ff4-e99ae8ae9626"/>
+<entry baseType="RulePackageInfo" checksum="3507767627" projectName="ConsultarQuestionario" qualifiedName="Questionario por exame" sourceCS="3F7F81709321CB85E45548D14D3654A5" targetCS="3507767627" type="RulePackageInfo" uuid="00ba2442-2831-4737-a174-113bda966999"/>
+<entry baseType="RuleProjectInfo" checksum="3489333614" projectName="ConsultarQuestionario" qualifiedName="ConsultarQuestionario" sourceCS="5959B004E021C840CD0CCA4DF7B9ACD1" targetCS="3489333614" type="RuleProjectInfo" uuid="3039346a-c396-414c-a7d7-69f2465dadaf"/>
+<entry baseType="VariableSet" checksum="3789283661" projectName="ConsultarQuestionario" qualifiedName="vars" sourceCS="B360879F87D1F1CC4ACEDCE21D15031C" targetCS="3789283661" type="VariableSet" uuid="9afa2b7d-f514-48c5-9124-5f1ec00d7f66"/>
+</teamserver>
+</teamservers>

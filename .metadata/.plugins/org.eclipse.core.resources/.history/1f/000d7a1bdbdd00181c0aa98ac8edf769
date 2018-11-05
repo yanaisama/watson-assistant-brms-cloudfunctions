@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>vars</name>
+  <uuid>82c48625-2b61-4ab8-abb0-0a307b221a8a</uuid>
+  <variables name="respostasQuestionario" type="br.com.dasa.Questionario" initialValue="" verbalization="questionário"/>
+  <variables name="unidadesDisponiveis" type="java.util.List" initialValue="" verbalization="unidades disponives"/>
+</ilog.rules.studio.model.base:VariableSet>

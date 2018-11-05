@@ -1,0 +1,37 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/dasa-exame-bom//dasa-exame-java"
+property uuid "41ef4252-7feb-497d-a3f0-5cf07360032a"
+package br.com.dasa;
+
+
+public class DasaValueProvider
+        extends ilog.rules.shared.bom.IlrBOMDomainValueProvider
+{
+    public DasaValueProvider();
+    public void dispose();
+    public string getBOM2XOMMapping(string arg);
+    public string getDisplayText(string arg1, java.util.Locale arg2);
+    public string getDocumentation(string arg1, java.util.Locale arg2);
+    public java.util.Map getProperties(string arg);
+    public string getTranslation(string arg);
+    public java.util.Collection getValues(ilog.rules.bom.IlrClass arg) domain 0,* class string;
+}
+
+public class DomainHelper
+{
+
+    static public class Item
+    {
+        public readonly string name;
+        public readonly string translation;
+        public readonly string verbalization;
+        public Item(string arg1, string arg2, string arg3);
+    }
+    public readonly java.util.Collection itemNames domain 0,* class string;
+    public static br.com.dasa.DomainHelper getDomainHelper(string arg);
+    public string getTranslation(string arg);
+    public string getVerbalization(string arg);
+    public void initValues();
+}
+

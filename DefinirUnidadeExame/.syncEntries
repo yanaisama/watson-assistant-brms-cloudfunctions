@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><teamservers>
+<teamserver>
+<target dataSource="" login="rtsAdmin" url="http://192.168.40.144:9090/decisioncenter"/>
+<entry baseType="Ruleflow" checksum="1734530388" projectName="DefinirUnidadeExame" qualifiedName="fluxoDefinirUnidade" sourceCS="1D677C5181DFE32F2487360CF5D2A9A9" targetCS="1734530388" type="Ruleflow" uuid="47fa8dc1-01d5-46cc-a51a-924471435428"/>
+<entry baseType="RulePackageInfo" checksum="1293156161" projectName="DefinirUnidadeExame" qualifiedName="Unidade Por Grupo" sourceCS="0FD07E4810F99DEB08A015510CFF4433" targetCS="1293156161" type="RulePackageInfo" uuid="4490328b-11d1-4a48-b243-f413c32db977"/>
+<entry baseType="RuleProjectInfo" checksum="2156503132" projectName="DefinirUnidadeExame" qualifiedName="DefinirUnidadeExame" sourceCS="7D6609AFFA321E3C556759443C92ADF8" targetCS="2156503132" type="RuleProjectInfo" uuid="3416a0d3-c409-4893-90d5-b298f7457fdc"/>
+<entry baseType="VariableSet" checksum="3703294205" projectName="DefinirUnidadeExame" qualifiedName="vars" sourceCS="C3391F57F93D165A41A7CD32D689CDBE" targetCS="3703294205" type="VariableSet" uuid="82c48625-2b61-4ab8-abb0-0a307b221a8a"/>
+</teamserver>
+<teamserver>
+<target dataSource="" login="rtsAdmin" url="http://192.168.40.157:9090/decisioncenter"/>
+<entry baseType="BRLRule" checksum="3126995393" projectName="DefinirUnidadeExame" qualifiedName="Unidade Por Grupo.Unidade para Limitação de Locomoção" sourceCS="DBB3848CDC0947620C9CC24957249237" targetCS="3126995393" type="BRLRule" uuid="bde6a60b-895c-4eb5-b51b-3658323887a4"/>
+<entry baseType="Ruleflow" checksum="1734530388" projectName="DefinirUnidadeExame" qualifiedName="fluxoDefinirUnidade" sourceCS="1D677C5181DFE32F2487360CF5D2A9A9" targetCS="1734530388" type="Ruleflow" uuid="47fa8dc1-01d5-46cc-a51a-924471435428"/>
+<entry baseType="RulePackageInfo" checksum="1293156161" projectName="DefinirUnidadeExame" qualifiedName="Unidade Por Grupo" sourceCS="0FD07E4810F99DEB08A015510CFF4433" targetCS="1293156161" type="RulePackageInfo" uuid="4490328b-11d1-4a48-b243-f413c32db977"/>
+<entry baseType="RuleProjectInfo" checksum="2156503132" projectName="DefinirUnidadeExame" qualifiedName="DefinirUnidadeExame" sourceCS="7D6609AFFA321E3C556759443C92ADF8" targetCS="2156503132" type="RuleProjectInfo" uuid="3416a0d3-c409-4893-90d5-b298f7457fdc"/>
+<entry baseType="VariableSet" checksum="3703294205" projectName="DefinirUnidadeExame" qualifiedName="vars" sourceCS="C3391F57F93D165A41A7CD32D689CDBE" targetCS="3703294205" type="VariableSet" uuid="82c48625-2b61-4ab8-abb0-0a307b221a8a"/>
+</teamserver>
+<teamserver>
+<target dataSource="" login="rtsAdmin" url="http://192.168.40.156:9090/decisioncenter"/>
+<entry baseType="BRLRule" checksum="3126995393" projectName="DefinirUnidadeExame" qualifiedName="Unidade Por Grupo.Unidade para Limitação de Locomoção" sourceCS="DBB3848CDC0947620C9CC24957249237" targetCS="3126995393" type="BRLRule" uuid="bde6a60b-895c-4eb5-b51b-3658323887a4"/>
+<entry baseType="Ruleflow" checksum="1734530388" projectName="DefinirUnidadeExame" qualifiedName="fluxoDefinirUnidade" sourceCS="1D677C5181DFE32F2487360CF5D2A9A9" targetCS="1734530388" type="Ruleflow" uuid="47fa8dc1-01d5-46cc-a51a-924471435428"/>
+<entry baseType="RulePackageInfo" checksum="1293156161" projectName="DefinirUnidadeExame" qualifiedName="Unidade Por Grupo" sourceCS="0FD07E4810F99DEB08A015510CFF4433" targetCS="1293156161" type="RulePackageInfo" uuid="4490328b-11d1-4a48-b243-f413c32db977"/>
+<entry baseType="RuleProjectInfo" checksum="2543961244" projectName="DefinirUnidadeExame" qualifiedName="DefinirUnidadeExame" sourceCS="7D6609AFFA321E3C556759443C92ADF8" targetCS="2543961244" type="RuleProjectInfo" uuid="3416a0d3-c409-4893-90d5-b298f7457fdc"/>
+<entry baseType="VariableSet" checksum="3789283661" projectName="DefinirUnidadeExame" qualifiedName="vars" sourceCS="C3391F57F93D165A41A7CD32D689CDBE" targetCS="3789283661" type="VariableSet" uuid="82c48625-2b61-4ab8-abb0-0a307b221a8a"/>
+</teamserver>
+</teamservers>

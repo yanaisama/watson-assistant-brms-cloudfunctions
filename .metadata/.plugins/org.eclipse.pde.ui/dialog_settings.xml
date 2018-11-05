@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="generateActivator"/>
+	<item value="3.5 ou superior" key="targetName"/>
+	<item value="false" key="uiPlugin"/>
+	<item value="false" key="apiAnalysis"/>
+	<item value="false" key="rcpPlugin"/>
+	<item value="false" key="osgiProject"/>
+	<section name="PDEFormActionManager">
+	</section>
+	<section name="org.eclipse.pde.ui.dialogs.PluginSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="622" key="DIALOG_X_ORIGIN"/>
+			<item value="216" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+	<section name="PluginExportWizard">
+		<item value="D:\Softwares\IBM\ODM89\dropins" key="destination0"/>
+		<item value="D:\Softwares\IBM\ODM89\dropins" key="destination1"/>
+		<item value="" key="keypass"/>
+		<item value="Gerar pacotes configuráveis de origem" key="exportSourceFormat"/>
+		<item value="false" key="signJAR"/>
+		<item value="C:\Users\NOTE167\Desktop" key="destination2"/>
+		<item value="D:\Softwares\IBM\ODM89" key="destination3"/>
+		<item value="true" key="exportUpdate"/>
+		<item value="false" key="saveAsAnt"/>
+		<item value="false" key="exportSource"/>
+		<item value="true" key="allowBinaryCycles"/>
+		<item value="" key="password"/>
+		<item value="201810301301" key="qualifierName"/>
+		<item value="false" key="useWorkspaceCompiledClasses"/>
+		<item value="1" key="exportType"/>
+		<item value="false" key="qualifier"/>
+		<item value="" key="alias"/>
+		<item value="" key="keystore"/>
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+</section>
